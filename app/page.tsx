@@ -146,7 +146,7 @@ export default function Home() {
         <div className=" pt-24 pb-20 relative z-10">
 
           <h2 className="text-white font-cormorant text-center leading-tight
-            text-[35px] sm:text-5xl lg:text-[80px] md:pb-350">
+            text-[35px] sm:text-5xl lg:text-[80px] md:pb-350 pb-0">
             HARGUN <br />
             <span className="text-xl sm:text-3xl tracking-[10px]">WEDS</span>
             <br />
@@ -181,7 +181,7 @@ export default function Home() {
 
           <div className="mt-8 text-center">
             <h2 className="text-white font-cormorant 
-            text-5xl sm:text-7xl lg:text-[100px] leading-tight tracking-wide">
+            text-5xl sm:text-7xl lg:text-[100px] leading-tight lg:tracking-wide tracking-wider">
               INVITES
             </h2>
 
@@ -190,7 +190,7 @@ export default function Home() {
             </p>
 
             <h2 className="text-white font-cormorant-upright text-center mt-10
-            text-5xl sm:text-7xl lg:text-[100px] leading-tight">
+            md:text-5xl text-[50px] lg:text-[100px] leading-tight">
               HARGUN
             </h2>
 
@@ -200,8 +200,8 @@ export default function Home() {
 
             <h2 className="text-white font-cormorant-upright text-center mt-10
             text-5xl sm:text-7xl lg:text-[100px] leading-tight">
-            <span className="text-white font-cormorant-upright text-center mt-10
-            text-5xl sm:text-7xl lg:text-[150px] leading-tight">&</span>   <br />
+            <span className="text-white font-cormorant-upright text-center lg:mt-10 mt-6
+            md:text-5xl text-[80px] lg:text-[150px] leading-tight">&</span>   <br />
               RIA
             </h2>
 
@@ -210,7 +210,7 @@ export default function Home() {
               D/O <br /> (Insert Names)
 
             </p>
-            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[20px] mt-8">
+            <p className="text-white font-cormorant-upright lg:text-3xl md:text-2xl text-[22px] mt-8">
               On the following events
             </p>
           </div>
@@ -225,7 +225,7 @@ export default function Home() {
                     className="lg:w-80 w-95 sm:w-76 h-auto"
                   />
 
-                  <h2 className="text-white font-cormorant lg:text-[45px]md:text-2xl sm:text-3xl mt-4">
+                  <h2 className="text-white font-cormorant lg:text-[45px] md:text-2xl text-[35px] mt-4">
                     {event.title}
                   </h2>
 
@@ -269,8 +269,8 @@ export default function Home() {
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
           </h1>
-          <h2 className="text-6xl text-center text-[#EAD670] font-cormorant mt-6">
-            Bride <br /> & <br /> Groom
+          <h2 className="text-[100px] text-center text-[#EAD670] font-cormorant-upright mt-6 leading-12"> <span className="text-[#EB3DB9] font-cormorant-upright">
+            Bride </span><br /> & <br /><span className="text-[#FF1100] font-cormorant-upright "> Groom </span>
           </h2>
         </div>
       </div>
