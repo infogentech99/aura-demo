@@ -148,14 +148,14 @@ export default function Home() {
               className="w-40 sm:w-52 h-auto"
             />
 
-            <h2 className="text-white text-lg sm:text-2xl font-Cormorant-Upright">
+            <h2 className="text-white lg:text-3xl sm:text-2xl font-cormorant-upright">
               With the heavenly blessings of <br />
-              our late grandparents, Sardarni Parkash Kaur and Sardar Avtar Singh.
+              Our late grandparents,<br/> Sardarni Parkash Kaur and Sardar Avtar Singh.
             </h2>
 
             <hr className="lg:w-24 w-16 border-white my-4" />
 
-            <h2 className="text-white font-cormorant text-lg sm:text-2xl">
+            <h2 className="text-white font-cormorant-upright lg:text-3xl sm:text-2xl">
               The Kataria Family
             </h2>
           </div>
@@ -167,7 +167,7 @@ export default function Home() {
               INVITES
             </h2>
 
-            <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
+            <p className="text-white font-cormorant-upright lg:text-3xl sm:text-2xl mt-6">
               You to join us in the wedding celebrations of
             </p>
 
@@ -176,7 +176,7 @@ export default function Home() {
               HARGUN
             </h2>
 
-            <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
+            <p className="text-white font-cormorant-upright lg:text-3xl sm:text-2xl mt-6">
               Son of <br /> Amarjeet Singh and Gurmeet Kaur
             </p>
 
@@ -187,11 +187,11 @@ export default function Home() {
             </h2>
 
 
-            <p className="text-white font-cormorant text-lg sm:text-2xl mt-6">
+            <p className="text-white font-cormorant-upright lg:text-3xl sm:text-2xl mt-6">
               D/O <br /> (Insert Names)
 
             </p>
-            <p className="text-white font-cormorant text-lg sm:text-2xl mt-8">
+            <p className="text-white font-cormorant lg:text-3xl sm:text-2xl mt-8">
               On the following events
             </p>
           </div>
@@ -218,7 +218,7 @@ export default function Home() {
 
                   <a
                     href={event.link}
-                    className="text-white underline text-sm mt-2"
+                    className="text-white underline text-sm mt-2 font-cormorant"
                     target="_blank"
                   >
                     See the route
