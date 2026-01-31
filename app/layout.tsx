@@ -14,24 +14,32 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  title: "Hargun Weds Ria - InviteArc",
-  description: "Premium wedding invitation templates by InviteArc",
-
   openGraph: {
+    title: "Hargun Weds Ria - InviteArc",
+    description: "Premium wedding invitation templates by InviteArc",
+    url: "https://hargunwedsria.invitearc.com/",
+    siteName: "InviteArc",
     images: [
       {
-        url: "https://hargunwedsria.invitearc.com/og_img.jpg",
+        url: "https://res.cloudinary.com/dx2di0mvx/image/upload/v1769836796/og_img_jniuwj.jpg",
         width: 1200,
         height: 630,
         alt: "Hargun Weds Ria Invitation",
       },
     ],
-    title: "Hargun Weds Ria - InviteArc",
-    description: "Premium wedding invitation templates by InviteArc",
-    url: "https://hargunwedsria.invitearc.com/",
-    siteName: "InviteArc",
     type: "website",
   },
+
+twitter: {
+  card: "summary_large_image",
+  title: "Hargun Weds Ria - InviteArc",
+  description: "Premium wedding invitation templates by InviteArc",
+  images: [
+    "https://res.cloudinary.com/dx2di0mvx/image/upload/v1769836796/og_img_jniuwj.jpg",
+  ],
+},
+
+
 };
 
 export default function RootLayout({
