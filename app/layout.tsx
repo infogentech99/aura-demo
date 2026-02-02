@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "InviteArc",
     images: [
       {
-        url: "https://res.cloudinary.com/dx2di0mvx/image/upload/v1769836796/og_img_jniuwj.jpg",
+        url: "/og.jpg",
         width: 1200,
         height: 630,
         alt: "Hargun Weds Ria Invitation",
@@ -37,9 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Hargun Weds Ria - InviteArc",
     description: "Premium wedding invitation templates by InviteArc",
-    images: [
-      "https://res.cloudinary.com/dx2di0mvx/image/upload/v1769836796/og_img_jniuwj.jpg",
-    ],
+    images: ["/og.jpg"],
   },
 
 };
