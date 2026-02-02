@@ -40,6 +40,12 @@ export const metadata: Metadata = {
     images: ["/og.jpg"],
   },
 
+ other: {
+    "og:image:secure_url": "https://hargunwedsria.invitearc.com/og.jpg",
+    "og:image:type": "image/jpeg",
+  },
+
+
 };
 
 export default function RootLayout({
