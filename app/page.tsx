@@ -283,7 +283,7 @@ export default function Home() {
 
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[22px]">{event.date}</span>  <br />
-                    <span className="text-[24px]"> {event.venue}</span> <br />
+                    <span className="text-[24px] uppercase"> {event.venue}</span> <br />
                     <span className="text-[20px]">{event.venue_address}</span> <br />
                     <span className="text-[22px]">  {event.time} </span>
                   </p>
