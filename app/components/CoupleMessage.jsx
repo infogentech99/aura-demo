@@ -25,10 +25,7 @@ export default function CoupleMessage() {
 
          {
             img: '/assets/testh4.png',
-        },
-
-
-       
+        },  
     ]
 
     return (
@@ -71,7 +68,7 @@ export default function CoupleMessage() {
                         ))}
                     </Swiper>
                 </div> 
-                
+
                 <div className="flex flex-col-1 justify-center items-center mt-16">
                     <div className="bg-[url('/assets/seap_h.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
                         <h1 className="lg:text-6xl md:text-5xl text-[40px] leading-10 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-26 md:pt-22 pt-16 font-cormorant-upright">
