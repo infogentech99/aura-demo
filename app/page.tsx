@@ -116,8 +116,8 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1769754820/laavan_mobile_bg_dhiww2.png')]
-    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1769754981/laavan_bg_hujjxn.png')]
+    bg-[url('/assets/intermobile_bg.png')]
+    md:bg-[url('/assets/inter_bg.webp')]
     bg-cover
     bg-no-repeat
     bg-top
@@ -195,27 +195,25 @@ export default function Home() {
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
      text-[70px] sm:text-5xl lg:text-[100px] md:pb-350 pb-0
-  flex flex-col items-center gap-y-6">
-
-            <span className="font-parisienne">Hargun</span>
-
-            <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
+  flex flex-col items-center gap-y-2">
 
             <span className="font-parisienne">Ria</span>
 
+            <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
+
+            <span className="font-parisienne">Hargun</span>
+
           </h2>
 
-          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-250">
-            <h2 className="text-[#E6D2FF] md:text-xl text-[17px] text-center">
-              ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥ <br />
-              ਸਤਿਗੁਰੂ ਦਾਤੇ ਕਾਜ ਰਚਾਇਆ, ਆਪਣੀ ਮੇਹਰ ਕਰਾਈ । <br />
-              ਦਾਸਾਂ ਕਾਰਜ ਆਪ ਸਵਾਰੇ, ਇਹ ਉਸ ਦੀ ਵਡਿਆਈ ॥
+          <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-150">
+            <h2 className="text-[#E6D2FF] md:text-3xl text-[17px] text-center">
+              ॐ श्री गणेशाय नम:
             </h2>
 
             <img
-              src="/assets/onkar.png"
+              src="/assets/ganesh_inter.png"
               alt=""
-              className="w-40 sm:w-52 h-auto"
+              className="md:w-40 w-28 h-auto"
             />
 
             <h2 className="text-[#E6D2FF] lg:text-[30px] md:text-2xl text-[20px] font-cormorant-upright">
@@ -226,7 +224,7 @@ export default function Home() {
             <hr className="lg:w-24 w-16 border-[#E6D2FF] my-4" />
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[34px] md:text-2xl text-[26px]">
-              The Kataria Family
+              The Jaiswal Family
             </h2>
           </div>
 
@@ -241,14 +239,7 @@ export default function Home() {
               you to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
-            md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-              HARGUN
-            </h2>
-
-            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[20px] mt-2">
-              S/O <br /> Sdn. Gurmeet Kaur & Sd. Amarjeet Singh
-            </p>
+            
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-4
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
@@ -262,6 +253,17 @@ export default function Home() {
               D/O <br /> Mrs. Roomy Jaiswal & Mr. Ram Jaiswal
 
             </p>
+
+
+<h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
+            md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
+              HARGUN
+            </h2>
+
+            <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[20px] mt-2">
+              S/O <br /> Sdn. Gurmeet Kaur & Sd. Amarjeet Singh
+            </p>
+
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
               On the following events
             </p>
@@ -325,7 +327,7 @@ export default function Home() {
       </div>
 
 
-      <div className="hidden md:block bg-[url('/assets/meetthebroom.png')] bg-cover bg-no-repeat">
+       <div className="hidden md:block bg-[url('/assets/meetthebroom.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
@@ -334,7 +336,7 @@ export default function Home() {
             <span className="text-[#ADBAFF] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#3FA9FF] font-cormorant-upright ">Groom</span>
           </h2>
         </div>
-      </div>
+      </div> 
 
 
       {/* mobile visible section */}
@@ -357,7 +359,7 @@ export default function Home() {
       <div className="hidden md:block bg-[url('/assets/bridewithmoon.png')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
         </div>
-      </div>
+      </div> 
 
       {/* mobile visible section */}
       <div className="md:hidden bg-[url('/assets/bridewithmoon_mobile.png')] bg-cover bg-no-repeat">
