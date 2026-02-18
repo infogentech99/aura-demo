@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef, useMemo } from "react";
+import { useEffect, useState, useRef, useMemo } from "react";
 import FallingLamps from "@/app/components/FallingLamps";
 import CoupleMessage from "@/app/components/CoupleMessage";
 import ThingsToKnow from "@/app/components/ThingsToKnow";
@@ -85,9 +85,14 @@ export default function Home() {
   const startMusic = () => {
     if (!audioRef.current) return;
     audioRef.current.volume = 0.3;
-    audioRef.current.play();
-    setStarted(true);
-    setPlaying(true);
+
+    audioRef.current
+      .play()
+      .then(() => {
+        setStarted(true);
+        setPlaying(true);
+      })
+      .catch(() => {});
   };
 
   const toggleMusic = () => {
@@ -95,11 +100,31 @@ export default function Home() {
 
     if (playing) {
       audioRef.current.pause();
+      setPlaying(false);
     } else {
       audioRef.current.play();
+      setPlaying(true);
     }
-    setPlaying(!playing);
   };
+
+  // ✅ First interaction auto start
+  useEffect(() => {
+    const handleFirstInteraction = () => {
+      if (!started) startMusic();
+
+      document.removeEventListener("click", handleFirstInteraction);
+      document.removeEventListener("touchstart", handleFirstInteraction);
+    };
+
+    document.addEventListener("click", handleFirstInteraction);
+    document.addEventListener("touchstart", handleFirstInteraction);
+
+    return () => {
+      document.removeEventListener("click", handleFirstInteraction);
+      document.removeEventListener("touchstart", handleFirstInteraction);
+    };
+  }, [started]);
+
 
   return (
     <>
@@ -112,7 +137,9 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song.mp3" loop />
+      <audio ref={audioRef} src="/assets/background_song.mp3" loop  preload="auto" />
+
+      
       {/* hero section */}
       <div
         className="
