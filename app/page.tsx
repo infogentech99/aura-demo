@@ -311,7 +311,7 @@ export default function Home() {
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
                     src={event.image}
-                    alt={event.title}
+                    alt={event.venue}
                     className="lg:w-80 w-95 sm:w-76 h-auto"
                   />
 
