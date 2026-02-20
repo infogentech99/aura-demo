@@ -143,8 +143,8 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('/assets/intermobile_bg.webp')]
-    md:bg-[url('/assets/inter_bg.webp')]
+    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771590153/intermobile_bg_tvgk6w.webp')]
+    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771590156/inter_bg_jkjonx.webp')]
     bg-cover
     bg-no-repeat
     bg-top
