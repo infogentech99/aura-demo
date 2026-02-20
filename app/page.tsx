@@ -53,7 +53,8 @@ export default function Home() {
     },
 
     {
-      title: <>Wedding Ceremony <br/>Anand Karaj</>,
+      title_ceremony: "Wedding Ceremony",
+      title: "Anand Karaj",
       image: "/assets/phere.webp",
       date: "Monday, March 9th 2026",
       venue: "Gurudwara Sri Guru Singh Sabha ",
@@ -314,6 +315,10 @@ export default function Home() {
                     alt={event.venue}
                     className="lg:w-80 w-95 sm:w-76 h-auto"
                   />
+
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
+                    {event.title_ceremony}
+                  </h2>
 
                   <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
                     {event.title}

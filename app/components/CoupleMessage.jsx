@@ -73,13 +73,13 @@ export default function CoupleMessage() {
                     <div className="bg-[url('/assets/seap_h.png')] bg-cover bg-no-repeat lg:h-150 lg:w-150 h-95 w-95 md:h-120 md:w-120">
                         <h1 className="lg:text-5xl md:text-4xl text-[30px] leading-8 font-bold lg:leading-12 lg:font-semibold text-center text-[#3c2267] lg:pt-36 md:pt-28 pt-26 font-cormorant-upright">
                          We Look forward<br />to your presence on <br /> the special occasion !</h1>
-                        <p className="lg:text-[26px] text-[14px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant-upright font-bold">
+                        <p className="lg:text-[32px] text-[18px] text-[#3c2267] md:mt-6 mt-4 text-center font-cormorant-upright font-bold">
                          RSVP:
                         </p>
                         <p className="lg:text-[26px] text-[16px] text-white md:mt-10 mt-4 text-center font-cormorant-upright font-bold md:leading-4 leading-3">
-                            <p className="lg:text-[26px] text-[18px]"
+                            <p className="lg:text-[28px] text-[20px]"
                             >Rajeev Jaiswal</p><br /> 
-                            <p className="lg:text-[26px] text-[18px]"
+                            <p className="lg:text-[28px] text-[20px]"
                             > Rajat Jaiswal</p>
                             <br /></p>
                     </div>
