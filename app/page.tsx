@@ -43,7 +43,7 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title: "Engagement  &  Sangeet",
+      title_ceremony: "Engagement  &  Sangeet",
       image: "/assets/reception.png",
       date: "Sunday, March 8th 2026",
       venue: "AKASA",
@@ -72,7 +72,7 @@ export default function Home() {
       time3: <div className="mb-36">1:00am Onwards</div>,
     },
     {
-      title: "Reception",
+      title_ceremony: "Reception",
       image: "/assets/cocktail.png",
       date: "Wednesday, March 11th 2026",
       venue: "THE NIKUNJ",
@@ -138,7 +138,7 @@ export default function Home() {
         {playing ? "⏸" : "▶"}
       </button>
 
-      <audio ref={audioRef} src="/assets/background_song.mp3" loop preload="auto" playsInline />
+      <audio ref={audioRef} src="/assets/background_song_inter.mp3" loop preload="auto" playsInline />
 
 
       {/* hero section */}
@@ -271,7 +271,7 @@ export default function Home() {
             </h2>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[19px] mt-6">
-              cordially invites you to grace the wedding celebrations of
+              you to join us in the wedding celebrations of
             </p>
 
 
@@ -320,7 +320,7 @@ export default function Home() {
                     {event.title_ceremony}
                   </h2>
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] mt-4 font-bold">
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[40px] md:text-2xl text-[30px] mt-4 font-bold">
                     {event.title}
                   </h2>
 
@@ -340,7 +340,7 @@ export default function Home() {
                   </a>
 
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] md:mt-4 mt-10 font-bold">
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[40px] md:text-2xl text-[30px] md:mt-4 mt-10 font-bold">
                     {event.title2}
                   </h2>
 
@@ -360,7 +360,7 @@ export default function Home() {
                   )}
 
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[45px] md:text-2xl text-[35px] font-bold mt-12">
+                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[40px] md:text-2xl text-[30px] font-bold mt-12">
                     {event.title3}
                   </h2>
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base md:mt-2">
