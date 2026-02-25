@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://2states-demo.vercel.app/"),
 
   openGraph: {
-    title: "Hritika & Gurpreet ",
+    title: "Himanshi & Karan",
     description: "Join as they begin their forever. 8, 9 & 11 March 2026",
     url: "https://2states-demo.vercel.app/",
     siteName: "InviteArc",
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
         url: "/og.jpg",
         width: 1200,
         height: 630,
-        alt: "Hritika & Gurpreet ",
+        alt: "Himanshi & Karan ",
       }, 
     ],
     type: "website",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Hritika & Gurpreet",
+    title: "Himanshi & Karan",
     description: "Join as they begin their forever. 8, 9 & 11 March, 2026",
     images: ["/og.jpg"],
   },

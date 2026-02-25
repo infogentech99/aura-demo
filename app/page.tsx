@@ -43,8 +43,8 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Engagement  &  Sangeet",
-      image: "/assets/reception.png",
+      title_ceremony: "Mehandi",
+      image: "/assets/aura_mehandi.png",
       date: "Tuesday, March 10th 2026",
       venue: "Hyatt Regency Delhi",
       venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
@@ -53,33 +53,53 @@ export default function Home() {
     },
 
     {
-      title_ceremony: "Wedding Ceremony",
-      title: "Anand Karaj",
-      image: "/assets/phere.webp",
+      title_ceremony: "Haldi",
+      image: "/assets/aura_haldi.png",
       date: "Friday, March 13th 2026",
-      venue: "Gurdwara Bangla Sahib",
-      venue_address: <>Hanuman Road Area, Connaught Place,<br /> Delhi 110001</>,
+      venue: "Golden Gate Banquet",
+      venue_address: <>Block B, Mayapuri Industrial Area Phase I, Mayapuri<br /> Delhi 110064</>,
       time: "4:00pm Onwards",
-      link: "https://maps.app.goo.gl/zDqMz2y6S9iq3L7JA",
-
-      title2: "Reception of Baraat",
-      venue2: "The Grand New Delhi",
-      venue_address2: <> Nelson Mandela Marg, Vasant Kunj, <br />New Delhi 110070</>,
-      time2: "7:00pm Onwards",
-      link_barat: "https://maps.app.goo.gl/zRDixAbftJwxGo4K6",
-
-      title3: "Vedic Phere",
-      time3: <div className="mb-36">1:00am Onwards</div>,
+      link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
     },
     {
-      title_ceremony: "Reception",
-      image: "/assets/cocktail.png",
+      title_ceremony: "Cocktail",
+      image: "/assets/aura_cocktail.png",
       date: "Sunday, March 15th 2026",
       venue: "The Ashok Hotel",
       venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
       time: "8pm Onwards",
       link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
     },
+
+ {
+      title_ceremony: "Engagement",
+      image: "/assets/aura_engagement.png",
+      date: "Tuesday, March 10th 2026",
+      venue: "Hyatt Regency Delhi",
+      venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
+      time: "7:00 pm onwards",
+      link: "https://maps.app.goo.gl/53z68ksx4cYgoNm59",
+    },
+
+    {
+      title_ceremony: "Shaadi",
+      image: "/assets/aura_shaadi.png",
+      date: "Friday, March 13th 2026",
+      venue: "The Leela Palace",
+      venue_address: <>Africa Ave, Diplomatic Enclave, Chanakyapuri,<br /> Delhi 110023</>,
+      time: "4:00pm Onwards",
+      link: "https://maps.app.goo.gl/mxcwCxWhH1TXBC8c9",
+    },
+    {
+      title_ceremony: "Reception",
+      image: "/assets/aura_reception.png",
+      date: "Sunday, March 15th 2026",
+      venue: "The Ashok Hotel",
+      venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
+      time: "8pm Onwards",
+      link: "https://maps.app.goo.gl/f599YkTSEYKDEK5L7",
+    },
+
 
   ];
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -144,8 +164,8 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772000667/inter_bg_water_mobile_gxasp1.webp')]
-    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771937159/inter_bg_water_qvbzrs.webp')]
+    bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020634/aura_demo_mobile_ejxmkd.webp')]
+    md:bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020630/aura_demo_vaomtp.webp')]
     bg-cover
     bg-no-repeat
     bg-top
@@ -219,17 +239,17 @@ export default function Home() {
 
 
         {/* <FallingLamps /> */}
-        <div className=" pt-24 md:pb-20 relative z-10">
+        <div className=" pt-24 md:pb-20 relative z-10 pb-24">
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
-     text-[70px] sm:text-5xl lg:text-[100px] md:pb-350 pb-0
+     text-[70px] sm:text-5xl lg:text-[100px] md:pb-370 pb-0
   flex flex-col items-center gap-y-2">
 
-            <span className="font-parisienne">Hritika</span>
+            <span className="font-parisienne">Himanshi</span>
 
             <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
 
-            <span className="font-parisienne">Gurpreet</span>
+            <span className="font-parisienne">Karan</span>
 
           </h2>
 
@@ -278,7 +298,7 @@ export default function Home() {
 
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
-             Hritika
+             Himanshi
             </h2>
 
 
@@ -294,11 +314,11 @@ export default function Home() {
             text-[64px] sm:text-7xl lg:text-[100px] leading-tight font-bold">
               <span className="text-[#E6D2FF] font-cormorant-upright text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
-              Gurpreet
+              Karan
             </h2>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-[30px] md:text-2xl text-[16px] mt-2">
-              (S/o Sdn. Rajinder Kaur and Sd. Manjit Singh)
+              (S/o Mrs. Reena and Mr. Manjit Singh)
             </p>
 
             <p className="text-[#E6D2FF] font-cormorant-upright lg:text-3xl md:text-2xl text-[24px] mt-8">
@@ -307,7 +327,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-2 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
@@ -320,9 +340,7 @@ export default function Home() {
                     {event.title_ceremony}
                   </h2>
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[35px] md:text-2xl text-[30px] mt-4 font-bold">
-                    {event.title}
-                  </h2>
+                
 
                   <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
                     <span className="text-[22px]">{event.date}</span>  <br />
@@ -340,33 +358,6 @@ export default function Home() {
                   </a>
 
 
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[40px] md:text-2xl text-[30px] md:mt-4 mt-10 font-bold">
-                    {event.title2}
-                  </h2>
-
-                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base mt-2">
-                    <span className="text-[24px]"> {event.venue2}</span> <br />
-                    <span className="text-[20px]"> {event.venue_address2} </span><br />
-                    <span className="text-[22px]">  {event.time2} </span>
-                  </p>
-                  {event.link_barat && (
-                    <a
-                      href={event.link_barat}
-                      className="text-[#E6D2FF] underline md:text-sm text-[18px] mt-2 font-cormorant "
-                      target="_blank"
-                    >
-                      See the route
-                    </a>
-                  )}
-
-
-                  <h2 className="text-[#E6D2FF] font-cormorant-upright lg:text-[40px] md:text-2xl text-[30px] font-bold mt-12">
-                    {event.title3}
-                  </h2>
-                  <p className="text-[#E6D2FF] font-cormorant-upright text-[14px] sm:text-base md:mt-2">
-                    <span className="text-[22px]">  {event.time3} </span>
-                  </p>
-
                 </div>
               ))}
             </div>
@@ -375,7 +366,7 @@ export default function Home() {
       </div>
 
 
-      <div className="hidden md:block bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1771999804/meetthebroom_demo_oq5p2l.webp')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020617/meet_aura_nymlsp.webp')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
           <h1 className="lg:text-3xl text-xl text-center text-[#E1EF1E] lg:pt-64 pt-12 font-cormorant">
             MEET THE
@@ -389,7 +380,7 @@ export default function Home() {
 
       {/* mobile visible section */}
 
-      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772004197/meet_mobile_2state_demo_wqnfod.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020640/mobile_meet_smmidq.webp')] bg-cover bg-no-repeat">
         <div className="h-200">
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
@@ -404,13 +395,13 @@ export default function Home() {
       <CoupleMessage />
       <ThingsToKnow />
 
-      <div className="hidden md:block bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772000322/Group_2147225113_jdprxd.webp')] bg-cover bg-no-repeat">
+      <div className="hidden md:block bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020613/moon_aura_utrh7a.webp')] bg-cover bg-no-repeat">
         <div className="lg:h-325 md:h-180">
         </div>
       </div>
 
       {/* mobile visible section */}
-      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772001730/bridewithmoon_mobile_demo_k1wzl1.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020638/moon_mobile_iidf33.png')] bg-cover bg-no-repeat">
         <div className="h-210">
         </div>
       </div>

@@ -8,23 +8,23 @@ export default function CoupleMessage() {
 
     const testimonial = [
         {
-            img: '/assets/couple1.png',
+            img: '/assets/aura_couple1.png',
         },
 
         {
-            img: '/assets/couple2.png',
+            img: '/assets/aura_couple2.png',
         },
 
          {
-            img: '/assets/couple3.png',
+            img: '/assets/aura_couple3.png',
         },
 
         {
-            img: '/assets/couple5.jpg',
+            img: '/assets/aura_couple4.png',
         },
 
          {
-            img: '/assets/couple4.png',
+            img: '/assets/aura_couple5.png',
         },  
     ]
 
@@ -80,7 +80,7 @@ export default function CoupleMessage() {
                             <p className="lg:text-[28px] text-[20px]"
                             >Rony Kapoor</p><br /> 
                             <p className="lg:text-[28px] text-[20px]"
-                            > Karan Kapoor</p>
+                            > Harsh Kapoor</p>
                             <br /></p>
                     </div>
                 </div>
@@ -88,7 +88,7 @@ export default function CoupleMessage() {
 
                 <div className="flex flex-col justify-center items-center lg:mt-15 mt-18">
                     <h2 className="lg:text-3xl text-2xl text-center text-white lg:pt-6 font-cormorant-upright">Please help us capture our special day, <br /> use the hashtag</h2>
-                    <h2 className="lg:text-3xl text-2xl text-center text-white pt-2 font-cormorant-upright"> #FromHritikaToKapoor</h2>
+                    <h2 className="lg:text-3xl text-2xl text-center text-white pt-2 font-cormorant-upright"> #FromHimanshiToKapoor</h2>
                     <img src="/assets/kirannew_moon.png" alt="" className="bg-cover bg-no-repeat lg:h-80 lg:w-80 h-65 w-65 md:h-90 md:w-90 mt-12" />
                      </div>
 
