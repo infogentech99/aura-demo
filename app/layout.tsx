@@ -14,12 +14,12 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://2states-demo.vercel.app/"),
+  metadataBase: new URL("https://aura-demo-flame.vercel.app/"),
 
   openGraph: {
     title: "Himanshi & Karan",
     description: "Join as they begin their forever. 8, 9 & 11 March 2026",
-    url: "https://2states-demo.vercel.app/",
+    url: "https://aura-demo-flame.vercel.app/",
     siteName: "InviteArc",
     images: [
       {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   },
 
  other: {
-    "og:image:secure_url": "https://2states-demo.vercel.app/og.jpg",
+    "og:image:secure_url": "https://aura-demo-flame.vercel.app/og.jpg",
     "og:image:type": "image/jpg",
   },
 
