@@ -382,7 +382,7 @@ export default function Home() {
 
       <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772084883/mobile_mmet_hysktb.png')] bg-cover bg-no-repeat">
         <div className="h-200">
-          <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
+          <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-26 font-cormorant">
             MEET THE
           </h1>
           <h2 className="text-[100px] text-center text-[#00EAFF] font-cormorant-upright mt-6 leading-12">
