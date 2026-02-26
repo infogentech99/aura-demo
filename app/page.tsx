@@ -380,7 +380,7 @@ export default function Home() {
 
       {/* mobile visible section */}
 
-      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772020640/mobile_meet_smmidq.webp')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('https://res.cloudinary.com/dx2di0mvx/image/upload/v1772084168/mobile_mmet_ro19ou.png')] bg-cover bg-no-repeat">
         <div className="h-200">
           <h1 className="text-xl text-center text-[#E1EF1E] lg:pt-48 pt-28 font-cormorant">
             MEET THE
