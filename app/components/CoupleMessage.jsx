@@ -8,23 +8,23 @@ export default function CoupleMessage() {
 
     const testimonial = [
         {
-            img: '/assets/aura_couple1.png',
+            img: '/assets/aura_couple1.jpg',
         },
 
         {
-            img: '/assets/aura_couple2.png',
+            img: '/assets/aura_couple2.jpg',
         },
 
          {
-            img: '/assets/aura_couple3.png',
+            img: '/assets/aura_couple3.jpg',
         },
 
         {
-            img: '/assets/aura_couple4.png',
+            img: '/assets/aura_couple4.jpg',
         },
 
          {
-            img: '/assets/aura_couple5.png',
+            img: '/assets/aura_couple5.jpg',
         },  
     ]
 
