@@ -49,7 +49,7 @@ export default function MarriageCountdown() {
                         Follow Invite Arc on Instagram</p> */}
                     </div>
                     <p className="lg:text-[16px] text-xl text-[#DEE6FF] mt-6 text-center font-cormorant-upright">
-                        © <a href="http://book.invitearc.com/" target="_blank">InviteArc</a> 2026 </p>
+                        © <a href="https://invitearc.com/" target="_blank">InviteArc</a> 2026 </p>
                 </div>
             </div>
         </>
